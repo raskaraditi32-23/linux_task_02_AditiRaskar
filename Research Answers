@@ -1,0 +1,57 @@
+Linux Task 02 – Research Answers
+1. What is UID?
+
+UID (User ID) is a unique number assigned to every user in a Linux system.
+It is used by the operating system to identify users and determine their permissions and ownership of files.
+
+2. What is GID?
+
+GID (Group ID) is a unique number assigned to a group in Linux.
+Users belonging to the same group can share permissions on files and directories.
+
+3. What information does /etc/passwd contain?
+
+The /etc/passwd file stores information about all user accounts in Linux. It contains:
+
+Username
+User ID (UID)
+Group ID (GID)
+User description
+Home directory
+Default login shell
+
+It helps the operating system identify and manage users.
+
+Linux Security Research
+
+1. Why are file permissions important?
+
+File permissions protect files from unauthorized access, modification, or deletion. 
+They ensure that only authorized users can read, write, or execute files, improving system security.
+
+2. What happens if sensitive files are given 777 permissions?
+
+If a sensitive file has 777 permissions, every user can read, modify, or delete it.
+This can lead to data theft, accidental deletion, malware infections, and unauthorized system changes.
+Therefore, using 777 on sensitive files is considered a major security risk.
+
+3. What is the Principle of Least Privilege?
+
+The Principle of Least Privilege (PoLP) means users should receive only the minimum permissions required to perform their tasks.
+Giving fewer permissions reduces the chances of accidental mistakes and security attacks.
+
+4. Why do organizations restrict user access?
+
+Organizations restrict user access to:
+
+Protect confidential data
+Prevent unauthorized changes
+Reduce insider threats
+Improve system security
+Ensure users can only access the resources required for their jobs
+
+Conclusion
+
+This task helped me understand Linux users, groups, file ownership, and file permissions.
+I learned how Linux controls access to files using ownership and permission settings.
+I also understood why proper permission management is important for maintaining system security and protecting sensitive information.
