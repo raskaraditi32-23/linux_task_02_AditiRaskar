@@ -1,0 +1,100 @@
+Permission Analysis
+Permission: 755
+
+Owner Rights:
+
+Read
+Write
+Execute
+
+Group Rights:
+
+Read
+Execute
+
+Other Users:
+
+Read
+Execute
+
+Real-world Use Case:
+Used for program files and directories where only the owner can modify files while everyone else can access them.
+
+Permission: 644
+
+Owner Rights:
+
+Read
+Write
+
+Group Rights:
+
+Read
+
+Other Users:
+
+Read
+
+Real-world Use Case:
+Used for text files, configuration files, and documents that everyone can read but only the owner can modify.
+
+Permission: 777
+
+Owner Rights:
+
+Read
+Write
+Execute
+
+Group Rights:
+
+Read
+Write
+Execute
+
+Other Users:
+
+Read
+Write
+Execute
+
+Real-world Use Case:
+Generally not recommended because it allows anyone to modify or delete the file, creating serious security risks.
+
+Permission: 600
+
+Owner Rights:
+
+Read
+Write
+
+Group Rights:
+
+No Permission
+
+Other Users:
+
+No Permission
+
+Real-world Use Case:
+Used for private files such as SSH keys, passwords, or confidential documents.
+
+Permission: 700
+
+Owner Rights:
+
+Read
+Write
+Execute
+
+Group Rights:
+
+No Permission
+
+Other Users:
+
+No Permission
+
+Real-world Use Case:
+Used for personal directories or scripts that only the owner should access.
+
