@@ -1,0 +1,6 @@
+Security Challenge
+File	                              Recommended Permission	                                     Reason
+password_backup.txt                  	600                                                      	Contains sensitive passwords that should only be accessible to the owner.
+public_notice.txt                    	644	                                                      Everyone can read the file, but only the owner can modify it.
+system_log.txt	                      640	                                                      The owner and administrators can access it, while others cannot.
+personal_notes.txt	                  600	                                                      Personal information should remain private to the owner.
